@@ -1,0 +1,64 @@
+.photo{
+	width:400px;
+	height:400px;
+	background:#aaa;
+	position:fixed;
+	z-index:-99;
+	border:solid 20px #fff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+}
+#photo_1{
+	background-image: url(images/photo_1.jpg);
+	background-size: 100% 100%;
+	transform: rotate(5deg);
+	top:600px;
+	left:100px;
+}
+
+#photo_2{
+	background-image: url(images/photo_2.jpg);
+	background-size: 100% 100%;
+	transform: rotate(-20deg);
+	top:200px;
+	left:80px;
+}
+#photo_3{
+	background-image: url(images/photo_4.jpg);
+	background-size: 100% 100%;
+	transform: rotate(30deg);
+	top:400px;
+	left:0px;
+	z-index:-100;
+}
+#photo_4{
+	background-image: url(images/photo_7.jpg);
+	background-size: 100% 100%;
+	transform: rotate(-30deg);
+	top:600px;
+	right:200px;
+}
+#photo_5{
+	background-image: url(images/photo_6.jpg);
+	background-size: 100% 100%;
+	transform: rotate(0deg);
+	top:600px;
+	right: 0px;
+}
+
+#page-portfolio #strip{
+	background-image: url(images/film_strip.png);
+	background-repeat: repeat-y;
+box-shadow:0 0 50px #000;
+width:1150px;
+height:auto;
+text-align: center;
+margin-right: 140px;
+margin-top: 50px;
+font-size: 20px;
+}
+
+#texte img{
+	margin-top:40px;
+	border-radius:5px;
+		box-shadow:0 0 50px #000 inset;
+}

@@ -1,0 +1,226 @@
+main{
+	width:1024px;
+  margin: auto;
+	position: relative;
+
+}
+body{
+font-family: 'Slabo 27px', serif;
+	background-position: -200px 200px;
+	background-attachment: fixed;
+	background-color:#939494;
+	margin: auto;
+	min-height: 100vh;
+	width: 1024px;
+
+
+}
+
+header{
+	width: 1024px;
+	height: 100px;
+	font-family: 'Slabo 27px', serif;
+	margin: 0;
+	/*box-shadow: 0 0 20px #000 inset;*/
+	color:#3d655d;
+	font-size: 75px;
+	text-align: center;
+	text-shadow:0 1px 3px #000;
+}
+nav{
+	width: 1024px;
+	height: 30px;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	margin-bottom: 10px;
+	margin-top: 0;
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+	border-top:dotted 1px rgba(255,255,255,0.5);
+		border-bottom:dotted 1px #fff;
+	padding-bottom: 5px;
+	text-align: center;
+}
+aside{
+	width: 60px;
+	height: 200px;
+
+	position: absolute;
+	top: 150px;
+	left: 956px;
+}
+footer{
+	width:984px;
+	height:30px;
+	margin-top:20px;
+	padding:20px;
+	text-align:center;
+}
+#long{
+	position: absolute;
+	top:800px;
+}
+#texte{
+	font-family: verdana;
+	width:850px;
+	height:auto;
+	text-align: left;
+	margin-right: 140px;
+margin-top: 50px;
+font-size: 20px;
+color:#ddd;
+}
+
+aside a{
+	width:50px;
+	height:50px;
+	display:block;
+	margin-bottom:5px;
+	margin-top:5px;
+	text-decoration: none;
+}
+aside	a:link{
+	background-image: url(images/sprits.png);
+	background-position-x:0px;
+}
+aside	a:visited{
+	background-image: url(images/sprits.png);
+	background-position-x:-50px;
+}
+aside	a:hover{
+	background-image: url(images/sprits.png);
+	background-position-x:-100px;
+}
+aside	a:active{
+	background-image: url(images/sprits.png);
+	background-position-x:-150px;
+}
+aside #face a:link{
+	background-position-y:-50px;
+	background-position-x:0px;
+	background-image: url(images/sprits.png);
+}
+aside #face a:visited{
+	background-position-y:-50px;
+	background-position-x:-50px;
+	background-image: url(images/sprits.png);
+}
+aside #face a:hover{
+	background-position-y:-50px;
+	background-position-x:-100px;
+	background-image: url(images/sprits.png);
+}
+aside #face a:active{
+	background-position-y:-50px;
+	background-position-x:-150px;
+	background-image: url(images/sprits.png);
+}
+aside #insta a:link{
+	background-position-y:-100px;
+	background-position-x:0px;
+	background-image: url(images/sprits.png);
+}
+aside #insta a:visited{
+	background-position-y:-100px;
+	background-position-x:-50px;
+	background-image: url(images/sprits.png);
+}
+aside #insta a:hover{
+	background-position-y:-100px;
+	background-position-x:-100px;
+	background-image: url(images/sprits.png);
+}
+aside #insta a:active{
+	background-position-y:-100px;
+	background-position-x:-150px;
+	background-image: url(images/sprits.png);
+}
+ul{
+	margin:0;
+	padding:0px;
+	list-style: none;
+	display: block;
+}
+nav li{
+	list-style: inside;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px;
+}
+nav a{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 30px;
+	text-decoration:none;
+}
+
+.photo{
+	width:400px;
+	height:400px;
+	background:#aaa;
+	position:fixed;
+	z-index:-99;
+	border:solid 20px #fff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+}
+#photo_1{
+	background-image: url(images/photo_1.jpg);
+	background-size: 100% 100%;
+	transform: rotate(5deg);
+	top:600px;
+	left:100px;
+}
+
+#photo_2{
+	background-image: url(images/photo_2.jpg);
+	background-size: 100% 100%;
+	transform: rotate(-20deg);
+	top:200px;
+	left:80px;
+}
+#photo_3{
+	background-image: url(images/photo_4.jpg);
+	background-size: 100% 100%;
+	transform: rotate(30deg);
+	top:400px;
+	left:0px;
+	z-index:-100;
+}
+#photo_4{
+	background-image: url(images/photo_7.jpg);
+	background-size: 100% 100%;
+	transform: rotate(-30deg);
+	top:600px;
+	right:200px;
+}
+#photo_5{
+	background-image: url(images/photo_6.jpg);
+	background-size: 100% 100%;
+	transform: rotate(0deg);
+	top:600px;
+	right: 0px;
+}
+nav	a:link{
+	color: #000
+}
+nav	a:visited{
+	color: #000
+}
+nav	a:hover{
+	color: #9B8B56
+}
+nav	a:active{
+	color: #000
+}
+#page-portfolio #texte{
+	background-image: url(images/film_strip.png);
+	background-repeat: repeat-y;
+box-shadow:0 0 50px #000;
+}
+#texte img{
+	width:600px;
+	margin-top:40px;
+	border-radius:5px;
+	box-shadow:0 0 50px #000 inset;
+
+}
