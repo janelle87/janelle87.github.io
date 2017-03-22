@@ -21,7 +21,6 @@ main{
 body{
 	font-family: 'Slabo 27px', serif;
 	background-color:#fff;
-	margin: auto;
 	width: 100%;
 
 
@@ -74,11 +73,13 @@ footer{
 }
 
 #texte{
-	width:1600px;
+	width:1024px;
 	height:auto;
 	text-align: center;
 margin-top: 50px;
 font-size: 20px;
+margin-left: auto;
+margin-right: auto;
 }
 
 
@@ -179,10 +180,6 @@ nav	a:active{
 }
 
 
-.behind_scene{
-	box-shadow: 0 10px 30px #000;
-
-}
 
 
 
@@ -335,42 +332,6 @@ nav	a:active{
 }
 
 
-.card3:hover .recto3{
-	  -webkit-transform: rotateY(180deg);
-}
-.card3:hover .verso3{
-	  -webkit-transform: rotateY(360deg);
-}
-.recto4{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	transform: rotateY(0deg);
-}
-.verso4{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	background: #FFF;
-	transform: rotateY(180deg);
-}
-
-.card4{
-	width: 850px;
-	height: 567px;
-	-webkit-perspective:1200px;
-  position: relative;
-	margin-bottom: 35px;
-		margin-left: 150px;
-}
 
 
 .card4:hover .recto4{
@@ -417,7 +378,7 @@ nav	a:active{
 .card5:hover .verso5{
 	  -webkit-transform: rotateY(360deg);
 }
-@media screen and (min-width:1600px)
+//*@media screen and (min-width:1600px)
 {main{width: 1600px;}
  footer{width: 1600px;}
  nav{width: 1600px;}
