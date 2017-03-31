@@ -11,21 +11,35 @@
 <style>
 
 body{
-  background-image: url(images/ttly.jpg);
-  background-repeat: no-repeat;
-}
+  width:400px;
+  height:700px;
 
+}
+.image{
+width:auto;
+}
+@media screen and (max-width: 480px) and (orientation: portrait){
+	#iphone_2 {
+    width:350px;
+    height:600px;
+    background-image: url(images/ttly.jpg);
+    background-repeat: no-repeat;
+	}
+
+}
 audio{width:90%; margin:auto;}
 .infos{width:80%;margin:auto; height:100px; background-color: #ccc; border-radius:20px;text-align: center;}
 
 </style>
 </head>
 <body>
+  <div class="infos"> Cliquez pour écouter...</div>
+    <audio controls autoplay>
+      <source src="podcast_1.mp3" type="audio/mpeg">
+    </audio>
+<img class"image" src="images/ttly.jpg">
 
-<div class="infos"> Cliquez pour écouter...</div>
-  <audio controls autoplay>
-    <source src="podcast_1.mp3" type="audio/mpeg">
-  </audio>
 
+<div  id="iphone_2"></div>
 </body>
 </html>
