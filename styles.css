@@ -378,39 +378,83 @@ nav	a:active{
 .card5:hover .verso5{
 	  -webkit-transform: rotateY(360deg);
 }
-//*@media screen and (min-width:1600px)
-{main{width: 1600px;}
- footer{width: 1600px;}
- nav{width: 1600px;}
-header{width: 1600px;}
-aside{width: 1600px}
- #texte{width: 1600px;}
-}
 
-@media screen and (min-width:1200px) and (max-width:1599px)
-{main{width: 1200px;}
- footer{width: 1200px;}
- nav{width: 1200px;}
- header{width: 1200px;}
- aside{width: 1200px}
- #texte{width: 1200px;}
-}
 
-@media screen and (min-width:800px) and (max-width:1199px)
-{main{width: 800px; margin-left: 50px;}
- footer{width: 800px; margin-left: 50px;}
- nav{width: 800px; margin-left: 50px;}
-header{width: 800px;margin-left: 50px;}
-aside{width: 800px;margin-left: 50px;}
+@media screen and (min-width: 1200px) {
+	#desktop_1 {
+		background-color: #900;
+		color: #fff;
+	}
 
- #texte{width: 800px;}
-}
+	*      DESKTOP                                            */
+	@media screen and (min-width: 1200px) {
+		#desktop_1 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
+	@media screen and (min-width: 800px) and (max-width: 1200px) and (min-device-width: 1024px) {
+		#desktop_2 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
+	@media screen and (max-width: 800px) and (min-device-width: 1024px){
+		#desktop_3 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
+	/***********************************************************/
+	/*      IPAD                                               */
+	@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+		#ipad_1 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
 
-@media screen and (min-width:0) and (max-width:799px)
-{main{width: 600px;}
- footer{width: 600px;}
- nav{width: 600px;}
- header{width: 600px;}
- aside{width: 600px}
- #texte{width: 600px;}
+	@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+		#ipad_2 {
+			background-color: #900;
+			color: #fff;
+		}
+	}
+
+	/***********************************************************/
+	/*      IPHONE                                             */
+
+	@media screen and (max-width: 568px) and (orientation: landscape){
+		#iphone_1 {
+			background-color: #990;
+			color: #fff;
+		}
+		.myDisplay{
+			font-size: smaller;
+		}
+	}
+	@media screen and (max-width: 480px) and (orientation: landscape){
+		#iphone_1 {
+			background-color: #900;
+			color: #fff;
+		}
+		.myDisplay{
+			font-size: smaller;
+		}
+	}
+	@media screen and (max-width: 480px) and (orientation: portrait){
+		#iphone_2 {
+			background-color: #900;
+			color: #fff;
+		}
+		.myDisplay{
+			font-size: larger;
+		}
+
+
+
+
+
+#texte{
+	width:800px;
 }
