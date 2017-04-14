@@ -443,20 +443,12 @@ nav	a:active{
 		}
 	}
 	@media screen and (max-width: 480px) and (orientation: landscape){
-		#iphone_1 {
-			background-color: #900;
-			color: #fff;
-		}
-		.myDisplay{
-			font-size: smaller;
-		}
+
+
 	}
 	@media screen and (max-width: 680px) and (orientation: portrait){
 		header {
-			font-size: 50px;
-		}
-		.myDisplay{
-			font-size: larger;
+			display: none;
 		}
 
 
