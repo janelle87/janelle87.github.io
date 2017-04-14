@@ -14,3 +14,26 @@
 	border-radius:5px;
 		box-shadow:0 0 50px #000 inset;
 }
+
+
+
+	@media screen and (max-width: 414px){
+		#iphone_1 {
+			background-color: #990;
+			color: #fff;
+		}
+		header {
+			display: none;
+		}
+			#photo{
+				display: none;
+			}
+
+		.myDisplay{
+			font-size: smaller;
+		}
+	}
+	@media screen and (max-width: 480px) and (orientation: landscape){
+
+
+	}

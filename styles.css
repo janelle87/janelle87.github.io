@@ -395,7 +395,7 @@ nav	a:active{
 		color: #fff;
 	}
 
-	*      DESKTOP                                            */
+	/*      DESKTOP                                            */
 	@media screen and (min-width: 1200px) {
 		#desktop_1 {
 			background-color: #900;
@@ -433,11 +433,18 @@ nav	a:active{
 	/***********************************************************/
 	/*      IPHONE                                             */
 
-	@media screen and (max-width: 568px) and (orientation: landscape){
+	@media screen and (max-width: 414px){
 		#iphone_1 {
 			background-color: #990;
 			color: #fff;
 		}
+		header {
+			display: none;
+		}
+			#photo{
+				display: none;
+			}
+
 		.myDisplay{
 			font-size: smaller;
 		}
@@ -446,8 +453,3 @@ nav	a:active{
 
 
 	}
-	@media screen and (max-width: 400px){
-		header {
-			display: none;
-		}
-}
