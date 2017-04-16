@@ -133,8 +133,11 @@ header{
 }
 	}
 	#printHome{display:none;}
+	#printAbout{display:none;}
+	#printContact{display:none;}
 	@media only print {
 		header{display:none;}
 		nav{display:none;}
 		#printHome{display:block;}
+		#printAbout{display:block;}
 	}
