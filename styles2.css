@@ -135,10 +135,28 @@ header{
 	#printHome{display:none;}
 	#printAbout{display:none;}
 	#printContact{display:none;}
+	#printGallery1{display:none;}
+		#printGallery2{display:none;}
+			#printGallery3{display:none;}
+				#printGallery4{display:none;}
+					#printGallery5{display:none;}
+						#printGallery6{display:none;}
+							#printGallery7{display:none;}
+								#printGallery8{display:none;}
+									#printGallery9{display:none;}
 	@media only print {
 		header{display:none;}
 		nav{display:none;}
 		#printHome{display:block;}
 		#printAbout{display:block;}
 		#printContact{display:block;}
+		#printGallery1{display:block;}
+				#printGallery2{display:block;}
+						#printGallery3{display:block;}
+								#printGallery4{display:block;}
+										#printGallery5{display:block;}
+												#printGallery6{display:block;}
+														#printGallery7{display:block;}
+																#printGallery8{display:block;}
+																		#printGallery9{display:block;}
 	}
