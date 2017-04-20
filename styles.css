@@ -13,17 +13,9 @@
 	padding-bottom:5px;
 }
 #photos img:hover{cursor: pointer;box-shadow:}
-main{
-	width:100%;
-  margin:auto;
-
-}
 body{
 	font-family: 'Slabo 27px', serif;
 	background-color:#fff;
-	width: 100%;
-
-
 }
 
 
@@ -70,16 +62,6 @@ footer	a:active{
 #long{
 	position: absolute;
 	top:800px;
-}
-
-#texte{
-	width:1024px;
-	height:auto;
-	text-align: center;
-margin-top: 50px;
-font-size: 20px;
-margin-left: auto;
-margin-right: auto;
 }
 
 
@@ -179,268 +161,25 @@ nav	a:active{
 	color: #000
 }
 
-
-
-
-
-.recto{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	transform: rotateY(0deg);
-}
-.verso{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	background: #FFF;
-	transform: rotateY(180deg);
-}
-
-.card{
-	width: 850px;
-	height: 567px;
-	-webkit-perspective:1200px;
-	-webkit-perspective-origin: 50% 50%;
-	/*position: absolute;*/
-	position: relative;
-	margin-bottom: 35px;
-	margin-left: 150px;
-}
-
-
-.card:hover .recto{
-	  -webkit-transform: rotateY(180deg);
-}
-.card:hover .verso{
-	  -webkit-transform: rotateY(360deg);
-}
-
-.recto1{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	transform: rotateY(0deg);
-}
-.verso1{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	background: #FFF;
-	transform: rotateY(180deg);
-}
-
-.card1{
-	width: 850px;
-	height: 567px;
-	-webkit-perspective:1200px;
-  position: relative;
-	margin-bottom: 35px;
-	margin-left: 150px;
-}
-
-
-.card1:hover .recto1{
-	  -webkit-transform: rotateY(180deg);
-}
-.card1:hover .verso1{
-	  -webkit-transform: rotateY(360deg);
-}
-.recto2{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	transform: rotateY(0deg);
-}
-.verso2{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	background: #FFF;
-	transform: rotateY(180deg);
-}
-
-.card2{
-	width: 850px;
-	height: 567px;
-	-webkit-perspective:1200px;
-  position: relative;
-	margin-bottom: 35px;
-	margin-left: 150px;
-}
-
-
-.card2:hover .recto2{
-	  -webkit-transform: rotateY(180deg);
-}
-.card2:hover .verso2{
-	  -webkit-transform: rotateY(360deg);
-}
-.recto3{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	transform: rotateY(0deg);
-}
-.verso3{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	background: #FFF;
-	transform: rotateY(180deg);
-}
-
-.card3{
-	width: 850px;
-	height: 567px;
-	-webkit-perspective:1200px;
-  position: relative;
-	margin-bottom: 35px;
-		margin-left: 150px;
-}
-
-
-
-
-.card4:hover .recto4{
-	  -webkit-transform: rotateY(180deg);
-}
-.card4:hover .verso4{
-	  -webkit-transform: rotateY(360deg);
-}
-.recto5{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	transform: rotateY(0deg);
-}
-.verso5{
-
-	width: 850px;
-	height: 567px;
-	position: absolute;
-	transition: all 1s ease-in 0s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-	background: #FFF;
-	transform: rotateY(180deg);
-}
-
-.card5{
-	width: 850px;
-	height: 567px;
-	-webkit-perspective:1200px;
-  position: relative;
-	margin-bottom: 35px;
-		margin-left: 150px;
-}
-
-
-.card5:hover .recto5{
-	  -webkit-transform: rotateY(180deg);
-}
-.card5:hover .verso5{
-	  -webkit-transform: rotateY(360deg);
-}
-
-
-@media screen and (min-width: 1200px) {
-	#desktop_1 {
-		background-color: #900;
-		color: #fff;
-	}
-
-	/*      DESKTOP                                            */
-	@media screen and (min-width: 1200px) {
-		#desktop_1 {
-			background-color: #900;
-			color: #fff;
-		}
-	}
-	@media screen and (min-width: 800px) and (max-width: 1200px) and (min-device-width: 1024px) {
-		#desktop_2 {
-			background-color: #900;
-			color: #fff;
-		}
-	}
-	@media screen and (max-width: 800px) and (min-device-width: 1024px){
-		#desktop_3 {
-			background-color: #900;
-			color: #fff;
-		}
-	}
 	/***********************************************************/
 	/*      IPAD                                               */
 	@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
-		#ipad_1 {
-			background-color: #900;
-			color: #fff;
-		}
+		#gal{display:block;}
+		#galm{display:none;}
+
 	}
 
 	@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
-		#ipad_2 {
-			background-color: #900;
-			color: #fff;
-		}
-	}
-
-	/***********************************************************/
-	/*      IPHONE                                             */
-
-	@media screen and (max-width: 414px){
-		#iphone_1 {
-			background-color: #990;
-			color: #fff;
-		}
-		header {
-			display: none;
-		}
-			#photo{
-				display: none;
-			}
-
-		.myDisplay{
-			font-size: smaller;
-		}
-	}
-	@media screen and (max-width: 480px) and (orientation: landscape){
+		#gal{display:none;}
+		#galm{display:block !important;}
 
 
 	}
+
+
+	#qrcode{display:none;}
+		@media print{
+			header{display:none;}
+			nav{display:none;}
+			#qrcode{display:block;z-index:999;}
+		}
